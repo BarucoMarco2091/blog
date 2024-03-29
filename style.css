@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h6 {
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+header h1,
+h6 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    padding-top: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.container {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding-left: 20px;
+}
+
+.container .box img {
+    width: 600px;
+    height: 700px;
+}
+
+.container .box p {
+    padding-top: 60px;
+}
+
+.container .box h1 {
+    padding-top: 15px;
+}
+
+.container .box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(231, 161, 153);
+}
+
+h2 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: rgb(231, 161, 153);
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content p {
+    font-size: 20px;
+}
+
+.container01 {
+    position: relative;
+    width: 300px;
+    /* largura da imagem */
+    height: 200px;
+    /* altura da imagem */
+}
+
+.container01 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    position: absolute;
+    top: 130%;
+    /* alinha o texto ao centro verticalmente */
+    left: 50%;
+    /* alinha o texto ao centro horizontalmente */
+    transform: translate(-50%, -50%);
+    /* centraliza o texto */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* cor de fundo com transparência */
+    padding: 10px;
+    /* espaçamento interno do texto */
+}
+
+footer p {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
